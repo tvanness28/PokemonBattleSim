@@ -1,0 +1,165 @@
+Absorb  Grass Special 20 100 25
+Acid  Poison Special 40 100 30
+Acid Armor  Poison Status - - 20
+Agility  Psychic Status - - 30
+Amnesia  Psychic Status - - 20
+Aurora Beam  Ice Special 65 100 20
+Barrage  Normal Physical 15 85 20
+Barrier  Psychic Status - - 20
+Bide  Normal Physical - - 10
+Bind  Normal Physical 15 85 20
+Bite  Dark Physical 60 100 25
+Blizzard  Ice Special 110 70 5
+Body Slam  Normal Physical 85 100 15
+Bone Club  Ground Physical 65 85 20
+Bonemerang  Ground Physical 50 90 10
+Bubble  Water Special 40 100 30
+Bubble Beam  Water Special 65 100 20
+Clamp  Water Physical 35 85 10
+Comet Punch  Normal Physical 18 85 15
+Confuse Ray  Ghost Status - 100 10
+Confusion  Psychic Special 50 100 25
+Constrict  Normal Physical 10 100 35
+Conversion  Normal Status - - 30
+Counter  Fighting Physical - 100 20
+Crabhammer  Water Physical 100 90 10
+Cut  Normal Physical 50 95 30
+Defense Curl  Normal Status - - 40
+Dig  Ground Physical 80 100 10
+Disable  Normal Status - 100 20
+Dizzy Punch  Normal Physical 70 100 10
+Double Kick  Fighting Physical 30 100 30
+Double Slap  Normal Physical 15 85 10
+Double Team  Normal Status - - 15
+Double-Edge  Normal Physical 120 100 15
+Dragon Rage  Dragon Special - 100 10
+Dream Eater  Psychic Special 100 100 15
+Drill Peck  Flying Physical 80 100 20
+Earthquake  Ground Physical 100 100 10
+Egg Bomb  Normal Physical 100 75 10
+Ember  Fire Special 40 100 25
+Explosion  Normal Physical 250 100 5
+Fire Blast  Fire Special 110 85 5
+Fire Punch  Fire Physical 75 100 15
+Fire Spin  Fire Special 35 85 15
+Fissure  Ground Physical - - 5
+Flamethrower  Fire Special 90 100 15
+Flash  Normal Status - 100 20
+Fly  Flying Physical 90 95 15
+Focus Energy  Normal Status - - 30
+Fury Attack  Normal Physical 15 85 20
+Fury Swipes  Normal Physical 18 80 15
+Glare  Normal Status - 100 30
+Growl  Normal Status - 100 40
+Growth  Normal Status - - 40
+Guillotine  Normal Physical - - 5
+Gust  Flying Special 40 100 35
+Harden  Normal Status - - 30
+Haze  Ice Status - - 30
+Headbutt  Normal Physical 70 100 15
+High Jump Kick  Fighting Physical 130 90 10
+Horn Attack  Normal Physical 65 100 25
+Horn Drill  Normal Physical - - 5
+Hydro Pump  Water Special 110 80 5
+Hyper Beam  Normal Special 150 90 5
+Hyper Fang  Normal Physical 80 90 15
+Hypnosis  Psychic Status - 60 20
+Ice Beam  Ice Special 90 100 10
+Ice Punch  Ice Physical 75 100 15
+Jump Kick  Fighting Physical 100 95 10
+Karate Chop  Fighting Physical 50 100 25
+Kinesis  Psychic Status - 80 15
+Leech Life  Bug Physical 20 100 15
+Leech Seed  Grass Status - 90 10
+Leer  Normal Status - 100 30
+Lick  Ghost Physical 30 100 30
+Light Screen  Psychic Status - - 30
+Lovely Kiss  Normal Status - 75 10
+Low Kick  Fighting Physical - 100 20
+Meditate  Psychic Status - - 40
+Mega Drain  Grass Special 40 100 15
+Mega Kick  Normal Physical 120 75 5
+Mega Punch  Normal Physical 80 85 20
+Metronome  Normal Status - - 10
+Mimic  Normal Status - - 10
+Minimize  Normal Status - - 10
+Mirror Move  Flying Status - - 20
+Mist  Ice Status - - 30
+Night Shade  Ghost Special - 100 15
+Pay Day  Normal Physical 40 100 20
+Peck  Flying Physical 35 100 35
+Petal Dance  Grass Special 120 100 10
+Pin Missile  Bug Physical 25 85 20
+Poison Gas  Poison Status - 90 40
+Poison Powder  Poison Status - 75 35
+Poison Sting  Poison Physical 15 100 35
+Pound  Normal Physical 40 100 35
+Psybeam  Psychic Special 65 100 20
+Psychic  Psychic Special 90 100 10
+Psywave  Psychic Special - 80 15
+Quick Attack  Normal Physical 40 100 30
+Rage  Normal Physical 20 100 20
+Razor Leaf  Grass Physical 55 95 25
+Razor Wind  Normal Special 80 100 10
+Recover  Normal Status - - 10
+Reflect  Psychic Status - - 20
+Rest  Psychic Status - - 10
+Roar  Normal Status - - 20
+Rock Slide  Rock Physical 75 90 10
+Rock Throw  Rock Physical 50 90 15
+Rolling Kick  Fighting Physical 60 85 15
+Sand Attack  Ground Status - 100 15
+Scratch  Normal Physical 40 100 35
+Screech  Normal Status - 85 40
+Seismic Toss  Fighting Physical - 100 20
+Self-Destruct  Normal Physical 200 100 5
+Sharpen  Normal Status - - 30
+Sing  Normal Status - 55 15
+Skull Bash  Normal Physical 130 100 10
+Sky Attack  Flying Physical 140 90 5
+Slam  Normal Physical 80 75 20
+Slash  Normal Physical 70 100 20
+Sleep Powder  Grass Status - 75 15
+Sludge  Poison Special 65 100 20
+Smog  Poison Special 30 70 20
+Smokescreen  Normal Status - 100 20
+Soft-Boiled  Normal Status - - 10
+Solar Beam  Grass Special 120 100 10
+Sonic Boom  Normal Special - 90 20
+Spike Cannon  Normal Physical 20 100 15
+Splash  Normal Status - - 40
+Spore  Grass Status - 100 15
+Stomp  Normal Physical 65 100 20
+Strength  Normal Physical 80 100 15
+String Shot  Bug Status - 95 40
+Struggle  Normal Physical 50 100 
+Stun Spore  Grass Status - 75 30
+Submission  Fighting Physical 80 80 25
+Substitute  Normal Status - - 10
+Super Fang  Normal Physical - 90 10
+Supersonic  Normal Status - 55 20
+Surf  Water Special 90 100 15
+Swift  Normal Special 60 ∞ 20
+Swords Dance  Normal Status - - 20
+Tackle  Normal Physical 50 100 35
+Tail Whip  Normal Status - 100 30
+Take Down  Normal Physical 90 85 20
+Teleport  Psychic Status - - 20
+Thrash  Normal Physical 120 100 10
+Thunder  Electric Special 110 70 10
+Thunder Punch  Electric Physical 75 100 15
+Thunder Shock  Electric Special 40 100 30
+Thunder Wave  Electric Status - 100 20
+Thunderbolt  Electric Special 90 100 15
+Toxic  Poison Status - 90 10
+Transform  Normal Status - - 10
+Tri Attack  Normal Special 80 100 10
+Twineedle  Bug Physical 25 100 20
+Vice Grip  Normal Physical 55 100 30
+Vine Whip  Grass Physical 45 100 25
+Water Gun  Water Special 40 100 25
+Waterfall  Water Physical 80 100 15
+Whirlwind  Normal Status - - 20
+Wing Attack  Flying Physical 60 100 35
+Withdraw  Water Status - - 40
+Wrap  Normal Physical 15 90 20
