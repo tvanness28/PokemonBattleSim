@@ -51,7 +51,7 @@ public class Pokemon {
 
     }
 
-    public Move[] createMovePool() {
+    public static Move[] createMovePool() {
         Move[] movePool = new Move[4];
         movePool[0] = new Move("Hydro Pump", 120, 5, 80, new Type("water"));
         movePool[1] = new Move("Fire Blast", 120, 5, 85, new Type("fire"));

@@ -14,7 +14,6 @@ public class Move {
         this.pp = pp;
         this.accuracy = accuracy;
         this.type = type;
-        critChance = 7;
     }
     
     public int use(Pokemon p1, Pokemon p2) {
