@@ -2,8 +2,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        Trainer ash = new Trainer();
-        Team pokemon1 = new Team(ash);
+        Team pokemon1 = new Team(0);
         Pokemon pikachu = new Pokemon("Pikachu");
         Pokemon bulbasaur = new Pokemon("Bulbasaur");
         Pokemon mewtwo = new Pokemon("Mewtwo");
@@ -16,12 +15,12 @@ public class Main {
         pokemon1.add(venusaur);
         pokemon1.add(charizard);
         pokemon1.add(eevee);
+	Trainer ash = new UserTrainer(0, pokemon1);        
+
         
-        
-        Trainer gary = new Trainer();
-        Team pokemon2 = new Team(gary);
+        Team pokemon2 = new Team(1);
         Pokemon nidoking = new Pokemon("Nidoking");
-        Pokemon raidon = new Pokemon("Raidon");
+        Pokemon raidon = new Pokemon("Rhydon");
         Pokemon jigglypuff = new Pokemon("Jigglypuff");
         Pokemon charmander = new Pokemon("charmander");
         Pokemon aerodactyl = new Pokemon("Aerodactyl");
@@ -32,10 +31,11 @@ public class Main {
         pokemon2.add(charmander);
         pokemon2.add(aerodactyl);
         pokemon2.add(articuno);
-        
-        Battlefield yoloDank = new Battlefield();
-        Battle swag = new Battle(ash, gary, yoloDank);
-        movePool[1].use(charizard, venusaur);
+	Trainer gary = new UserTrainer(1, pokemon2);       
+
+ 
+	PokemonBattle swag = new PokemonBattle(ash, gary);
+        swag.runBattle();
         
     }
 

@@ -1,3 +1,4 @@
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -24,7 +25,8 @@ public class Pokemon {
     public Pokemon(String pokemonName) {
         int index = -1;
         stats = textToArray();
-
+	
+	//System.out.println(pokemonName);
         // iterate through stats and find index of pokemonName
         for (int i = 0; i < stats.length; i++) {
             for (int j = 0; j < stats[0].length; j++) {
@@ -47,7 +49,7 @@ public class Pokemon {
             specialAttack = Integer.parseInt(stats[index][7]);
             specialDefense = Integer.parseInt(stats[index][8]);
             speed = Integer.parseInt(stats[index][9]);
-            Move[] movePool = createMovePool();
+            movePool = createMovePool();
 
     }
 
@@ -62,8 +64,9 @@ public class Pokemon {
 
 
     public String[][] textToArray() {
-        String[][] output = new String [151][9];
-        Scanner scan = new Scanner("stats.txt");
+	try {
+        String[][] output = new String [151][10];
+        Scanner scan = new Scanner(new File("stats.txt"));
         
         for (int i = 0; i < output.length; i++) {
             for (int j = 0; j < output[0].length; j++) {
@@ -73,6 +76,10 @@ public class Pokemon {
                 output[i][j] = scan.next();
             }
         }
+	
         return output;
+	} catch(Exception e) {}
+
+	return null;
     }
 }

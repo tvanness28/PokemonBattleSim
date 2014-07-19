@@ -15,6 +15,10 @@ public class Battlefield {
 		return trainers.values();
 	}
 
+	public Trainer getTrainer(int id) {
+		return trainers.get(id);
+	}
+
 	public Collection<Pokemon> getFieldPokemon() {
 		Collection<Pokemon> pokemons = new ArrayList<Pokemon>(trainers.size());;
 		for(Trainer trainer : getTrainers()) {

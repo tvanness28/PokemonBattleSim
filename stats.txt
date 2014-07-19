@@ -119,7 +119,7 @@ goldeen 118 water none 45 67 60 35 50 63
 seaking 119 water none 80 92 65 65 80 68
 staryu 120 water none 30 45 55 70 55 85
 starmie 121 water psychic 60 75 85 100 85 115
-mr. mime 122 psychic fairy 40 45 65 100 120 90
+mr._mime 122 psychic fairy 40 45 65 100 120 90
 scyther 123 bug flying 70 110 80 55 80 105
 jynx 124 ice psychic 65 50 35 115 95 95
 electabuzz 125 electric none 65 83 57 95 85 105

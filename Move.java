@@ -23,15 +23,15 @@ public class Move {
             stabModifier = 1.5;
         }
         
-        int damage = 0;
+        double damage = 0;
         if (pp > 0) {
             int random = (int) (Math.random() * 38 + 217);
-            if (type.isPhysical) {
-                damage = ((42 * p1.attack * power) / p2.defense / 50 + 2) * 1 / 10 * random / 255; 
-            }
+            //if (type.isPhysical) {
+                damage = ((42.0 * p1.attack * power) / (double)p2.defense / 50.0 + 2.0) / 10.0 * (double)random / 255.0; 
+            //}
         }
         
-        return damage;
+        return (int)damage;
         /*
         else {
             throw new OutOfPPException("No more PP for that Move");

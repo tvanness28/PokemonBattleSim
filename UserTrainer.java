@@ -17,8 +17,19 @@ public class UserTrainer extends Trainer {
 	}
 
 	@Override
+	public Team getTeam() {
+		return team;
+	}
+
+	@Override
 	public Pokemon getFieldPokemon() {
-		return fieldPokemon;
+		return team.starter;
+	}
+
+	@Override
+	public void setFieldPokemon(Pokemon pokemon) {
+		// DO NOTHING
+		this.fieldPokemon = pokemon;
 	}
 
 
@@ -31,25 +42,32 @@ public class UserTrainer extends Trainer {
 	@Override
 	public TrainerBattleMove decideBattleMove(Battlefield field) {
 		try {
-			Scanner sc = new Scanner(System.in);
+			//Scanner sc = new Scanner(System.in);
 			boolean decided = false;
 
 			while(true) {
-				String[] commandParts = sc.nextLine().split(" ");
+				String[] commandParts = PokemonBattle.sc.nextLine().split(" ");
 				if(commandParts.length >= 2) {
 					String command = commandParts[0];
 					String commandTarget = commandParts[1];
 
 					if("use".equals(command)) {
-						// iono do something lol						
-						break;
+						int move = Integer.parseInt(commandTarget);
+						Trainer enemy = (id == 0) ? field.getTrainer(1) : field.getTrainer(0);
+						/*for(Trainer trainer : field.getTrainers()) {
+							if(!trainer.equals(this)) {
+								enemy = trainer;
+								break;
+							}
+						}*/
+					
+						
+						return new TrainerBattleMove("use", this, enemy, getFieldPokemon().movePool[move]);
 					} else {
 						continue;
 					}
 				}
 			}
-
-			sc.close();
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
