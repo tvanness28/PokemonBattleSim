@@ -35,6 +35,7 @@ public class PokemonBattle {
 			// perform calculations
 			for(TrainerBattleMove move : determineTrainerBattleMoveOrder(battleMoves)) {
 				executeBattleMove(move);
+				System.out.println(move.getTrainer().getFieldPokemon().name + " uses " + move.getMove().getName());				
 
 				Pokemon enemy = move.getTrainerTarget().getFieldPokemon();
 				if(enemy.hp <= 0) {
